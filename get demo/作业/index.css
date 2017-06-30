@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 50px;
+    font-size: 50px;
+    font-family: 苏新诗柳楷简;
+    color: aqua;
+}
+a img{
+    animation: aa 10s infinite;
+}
+@keyframes aa {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,8 @@
+git config --global user.name "Your Name" 创建门户用户名
+git config --global user.email "email@example.com" 邮箱账号
+git init 初始化git仓库
+git三个区域：工作区 暂存区 版本库
+git add 文件名   把文件添加到暂存区
+git status 查看版本库的状态
+git commit -m "描述内容" 把文件从暂存区添加到版本库
+git diff 产看工作区改变的内容
